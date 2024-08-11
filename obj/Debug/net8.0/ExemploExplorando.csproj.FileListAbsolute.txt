@@ -12,3 +12,4 @@ C:\.net\ExemploExplorando\obj\Debug\net8.0\refint\ExemploExplorando.dll
 C:\.net\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.pdb
 C:\.net\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.genruntimeconfig.cache
 C:\.net\ExemploExplorando\obj\Debug\net8.0\ref\ExemploExplorando.dll
+C:\.net\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.sourcelink.json
