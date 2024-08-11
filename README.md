@@ -28,4 +28,4 @@ Este é um projeto de estudo, mas sugestões e contribuições são bem-vindas! 
 
 ## Licença
 
-Este projeto é licenciado sob a MIT License.
+Este projeto é licenciado sob a [MIT License](LICENSE.txt).
