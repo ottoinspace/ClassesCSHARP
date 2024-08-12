@@ -14,5 +14,30 @@ namespace ExemploExplorando.Models
         {
             Alunos.Add(aluno);
         }
+
+        public int ObterQuantidadeAlunosMatriculados()
+        {
+            int quantidade = Alunos.Count();
+            return quantidade;
+        }
+
+        public bool RemoverAluno(Pessoa aluno)
+        {
+            bool value = Alunos.Remove(aluno);
+            if (value == false)
+            {
+                throw new ArgumentException ("Argumento invalido ao retirar aluno");
+            }
+
+            return value;
+        }
+
+        public void ListarAlunos()
+        {
+            foreach(Pessoa aluno in Alunos)
+            {
+                Console.WriteLine(aluno.NomeCompleto);
+            }
+        }
     }
 }
